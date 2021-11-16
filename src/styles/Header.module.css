@@ -1,0 +1,18 @@
+.header {
+  background-image: url("../assets/page_header.svg");
+  background-color: #f6f6f6;
+  background-repeat: repeat-x;
+  background-position-y: bottom;
+  width: 100%;
+  padding: 4rem;
+}
+.title {
+  margin: 0;
+  margin-bottom: 1rem;
+  line-height: 1.15;
+  font-size: 2.5rem;
+}
+.title span {
+  color: #0070f3;
+  text-decoration: none;
+}

@@ -1,11 +1,12 @@
 import Meta from '../components/Meta'
-
+import Stepper from '../components/Stepper'
 const control = () => {
   return (
-    <div>
+    <>
       <Meta title='control' />
       <h1>Control</h1>
-    </div>
+      <Stepper/>
+    </>
   )
 }
 

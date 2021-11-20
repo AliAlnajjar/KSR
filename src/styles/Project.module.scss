@@ -1,0 +1,41 @@
+@use "./Variables.scss";
+.card {
+  padding: 2rem;
+  border: 1px solid Variables.$color-border-light;
+  border-radius: 12px;
+  background-color: Variables.$color-secondary;
+  height: 100%;
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+/* .grid {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: auto;
+} */
+/* .grid .card:nth-child(odd) {
+  background-image: url("../assets/oval1.svg");
+  background-repeat: no-repeat;
+  background-position: calc(100% + 175px) calc(100% + 175px);
+}
+.grid .card:nth-child(odd) .cardRight {
+  transform: rotate(1deg);
+}
+.grid .card:nth-child(even) .cardRight {
+  transform: rotate(-1deg);
+}
+.grid .card:nth-child(even) {
+  background-image: url("../assets/oval2.svg");
+  background-repeat: no-repeat;
+  background-position: calc(100% + 175px) calc(100% + 175px);
+} */

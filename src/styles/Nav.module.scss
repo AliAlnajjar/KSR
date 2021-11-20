@@ -1,9 +1,9 @@
+@use './Variables.scss';
 .nav {
   height: 80px;
   padding: 10px;
   color: #000;
   display: flex;
-  font-family: cairo;
   font-weight: 300;
   font-size: 1.4rem;
   align-items: flex-end;
@@ -23,6 +23,6 @@
   padding-top: 30px;
 }
 .nav ul li :hover {
-  background-color: #f6f6f6;
-  border-bottom: 5px #0070f3 solid;
+  background-color: Variables.$color-secondary;
+  border-bottom: 5px Variables.$color-primary solid;
 }

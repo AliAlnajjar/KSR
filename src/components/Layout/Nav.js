@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import navStyles from '../styles/Nav.module.css'
+import navStyles from '../../styles/Nav.module.scss'
 
 const Nav = () => {
   return (
@@ -16,6 +16,9 @@ const Nav = () => {
         <li>
           <Link href='/control'>Control</Link>
         </li>
+        <li>
+          <Link href='/standardList'>Standards</Link>
+        </li>
       </ul>
 
       <ul>
@@ -23,7 +26,7 @@ const Nav = () => {
           <Link href='/profile'>Profile</Link>
         </li>
         <li>
-          <Link href='/logout'>Logout</Link>
+          <Link href='/login'>Logout</Link>
         </li>
       </ul>
     </nav>

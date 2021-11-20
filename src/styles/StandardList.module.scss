@@ -1,0 +1,17 @@
+@use "./Variables.scss";
+.grid {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.card {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  flex-basis: 45%;
+  border: 1px solid Variables.$color-border-light;
+  border-radius: 5px;
+  border-top-right-radius: 50px;
+}

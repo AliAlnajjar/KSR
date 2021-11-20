@@ -1,0 +1,7 @@
+@use "./Variables.scss";
+.MuiButton-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  color: Variables.$color-primary;
+}

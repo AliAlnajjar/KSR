@@ -1,13 +1,12 @@
 import Project from './Project'
-import projectStyles from '../styles/Project.module.css'
-
+import { Grid  } from '@mui/material'
 const ProjectList = ({ projects }) => {
   return (
-    <div className={projectStyles.grid}>
+    <Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }} spacing={9}>
       {projects.map((project) => (
         <Project project={project} />
       ))}
-    </div>
+    </Grid>
   )
 }
 

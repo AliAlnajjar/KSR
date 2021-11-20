@@ -1,0 +1,36 @@
+.main {
+  min-height: 100vh;
+}
+
+//breakpoints according to google material design
+@media only screen and (max-width: 600px) {
+  .main {
+    margin: 1rem; // 16px
+  }
+}
+@media only screen and (max-width: 905px) {
+  //  margin 32px, window adapt
+  .main {
+    margin: 2rem; // 32px
+  }
+}
+@media only screen and (max-width: 1240px) {
+  //  margin adapt, window 840px
+  .main {
+    max-width: 840px;
+    margin: auto; // center content
+  }
+}
+@media only screen and (max-width: 1440px) {
+  //  margin 200px, screen adapt
+  .main {
+    margin: 3rem 12.5rem; // 200px
+  }
+}
+@media only screen and (min-width: 1441px) {
+  //  margin adapt, window 1040px
+  .main {
+    max-width: 1040px;
+    margin: auto; // center content
+  }
+}
